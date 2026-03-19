@@ -1,12 +1,5 @@
 #!/usr/bin/env python3
-"""
-CLI entry point for the Binance Futures Testnet trading bot.
-
-Usage:
-    python cli.py market  --symbol BTCUSDT --side BUY  --quantity 0.001
-    python cli.py limit   --symbol ETHUSDT --side SELL --quantity 0.05 --price 3500
-    python cli.py stop-limit --symbol BTCUSDT --side BUY --quantity 0.001 --price 95000 --stop-price 94000
-"""
+# CLI entry point for the Binance Futures Testnet trading bot.
 
 import argparse
 import sys

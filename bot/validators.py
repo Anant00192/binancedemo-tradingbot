@@ -1,7 +1,4 @@
-"""
-Input validation helpers for CLI arguments.
-Each function either returns a cleaned value or raises ValueError.
-"""
+# CLI input validation
 
 SUPPORTED_SYMBOLS = [
     "BTCUSDT", "ETHUSDT", "BNBUSDT", "XRPUSDT",

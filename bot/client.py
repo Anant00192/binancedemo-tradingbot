@@ -1,7 +1,4 @@
-"""
-Thin wrapper around the Binance Futures REST API.
-Handles authentication (HMAC-SHA256) and basic error mapping.
-"""
+# Binance Futures REST client with HMAC signing
 
 import hashlib
 import hmac
@@ -14,7 +11,7 @@ logger = logging.getLogger("trading_bot")
 
 
 class BinanceAPIError(Exception):
-    """Raised when the Binance API returns an error response."""
+    # Error response from Binance
 
     def __init__(self, status_code, code, msg):
         self.status_code = status_code

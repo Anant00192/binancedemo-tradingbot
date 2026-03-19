@@ -1,7 +1,4 @@
-"""
-Order placement functions.
-Each one builds the correct param dict and delegates to the client.
-"""
+# Order placement functions
 
 import logging
 from bot.client import BinanceClient
